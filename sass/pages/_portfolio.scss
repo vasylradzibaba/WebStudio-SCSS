@@ -1,0 +1,44 @@
+ .project {
+    padding-top: 94px;
+    padding-bottom: 94px;
+ }
+ .project-name {
+   color: var(--main-color);
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 1.08px;
+}
+.project-info {
+   color: var(--add-color);
+   line-height: 1.87;
+   letter-spacing: 0.48px;
+   padding: 4px 24px;
+}
+.project-list {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   column-gap: 30px;
+   row-gap: 30px;
+}
+.project-item {
+   outline: 1px  solid #eee;
+   flex-basis: calc((100% - 2 * 30px) / 3);
+}
+.project-item:hover {
+   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+/* .project-img {
+   width: 100%;
+} */
+.box-name {
+   padding: 20px 20px;
+}
+.project-name {
+   color: var(--main-color);
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 1.08;
+   margin-bottom: 4px;
+   margin-left: 24px;
+}
